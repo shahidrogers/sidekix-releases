@@ -3,6 +3,32 @@
     <channel>
         <title>Sidekix</title>
         <item>
+            <title>0.4.1</title>
+            <pubDate>Sat, 12 Sep 2026 21:46:28 +0800</pubDate>
+            <link>https://lutsinar.com/#sidekix</link>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Summary
+
+Sidekix 0.4.1 expands the instrument library with two opt-in modules: Mac Engine Room for live CPU, memory, and network activity, and Power Dock for Mac and accessory battery levels. It also refines instrument editing, panel behavior, Buddy interactions, and daily-instrument presentation while preserving existing layouts and settings.
+
+## Changes
+
+- **feat**: Add Mac Engine Room with live mechanical system-activity gauges.
+- **feat**: Add Power Dock for Mac and connected accessory battery status.
+- **improve**: Refine instrument editing, drawer controls, onboarding, and detail-panel behavior.
+- **improve**: Polish Buddy, Water, Focus, and Lofi Radio interactions and presentation.
+- **docs**: Document the production packaging, Sparkle signing, and appcast publishing workflow.
+
+## Commits
+
+6908ca0 release: bump version to 0.4.1 including Engine Room and Power Dock
+]]></description>
+            <enclosure url="https://github.com/shahidrogers/sidekix-releases/releases/download/v0.4.1/Sidekix-0.4.1-macos-apple-silicon.zip" length="3302485" type="application/octet-stream" sparkle:edSignature="9RVmNX2XvY9R+2s9+J7NCFCHzPFj9p4GF/52bn4W2alqKv1aUYmV+z/If1w+j3IYSsavDAEhKp6+TJVYCBwKBg=="/>
+        </item>
+        <item>
             <title>0.4.0</title>
             <pubDate>Sat, 12 Sep 2026 19:22:31 +0800</pubDate>
             <link>https://lutsinar.com/#sidekix</link>
