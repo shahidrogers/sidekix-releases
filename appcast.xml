@@ -3,6 +3,18 @@
     <channel>
         <title>Sidekix</title>
         <item>
+            <title>0.4.0</title>
+            <pubDate>Sat, 12 Sep 2026 19:22:31 +0800</pubDate>
+            <link>https://lutsinar.com/#sidekix</link>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Sidekix 0.4.0 introduces Buddy, a small focus companion, and refreshes the panel and onboarding experience.
+]]></description>
+            <enclosure url="https://github.com/shahidrogers/sidekix-releases/releases/download/v0.4.0/Sidekix-0.4.0-macos-apple-silicon.zip" length="3239128" type="application/octet-stream" sparkle:edSignature="YYJhUtRejQslyU0GSVkIHHYUxf0Cs3dBPe2A+ucR0CY9dMd2zyqVqYsip4Ki1fGxGJv5JNMUhvJpPq0DrkHBDg=="/>
+        </item>
+        <item>
             <title>0.3.1</title>
             <pubDate>Sat, 12 Sep 2026 17:58:38 +0800</pubDate>
             <link>https://lutsinar.com/#sidekix</link>
