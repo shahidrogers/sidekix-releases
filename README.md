@@ -13,6 +13,17 @@ Sidekix is currently a free, unsigned beta. macOS will block its first launch be
 3. Open **System Settings → Privacy & Security** and scroll to Security.
 4. Click **Open Anyway** for Sidekix, then confirm **Open**.
 
+### Terminal alternative
+
+If you are comfortable using Terminal, after moving Sidekix to Applications you can remove macOS's download quarantine and launch it with:
+
+```sh
+xattr -dr com.apple.quarantine /Applications/Sidekix.app
+open /Applications/Sidekix.app
+```
+
+Only run these commands for a copy downloaded from this repository.
+
 Only download Sidekix from this repository. Each release includes a SHA-256 checksum for verifying the downloaded ZIP.
 
 ## System requirements
