@@ -3,6 +3,31 @@
     <channel>
         <title>Sidekix</title>
         <item>
+            <title>0.4.4</title>
+            <pubDate>Sun, 13 Sep 2026 23:43:08 +0800</pubDate>
+            <link>https://lutsinar.com/#sidekix</link>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Summary
+
+Sidekix 0.4.4 gives Buddy a little more life with optional, private on-screen chatter that respects pacing and can be turned off. It also refreshes the Radio and Window editors for faster station/scene selection and in-place renaming, while Notes gains smoother text entry.
+
+## Changes
+
+- **feat**: Add optional Buddy chatter with local history, varied species-aware messages, and pet replies.
+- **improve**: Refresh Radio and Window station/scene controls with direct selection and in-place renaming.
+- **improve**: Add a reusable console text field and smoother Notes text entry.
+- **test**: Add coverage for Buddy chatter pacing, persistence, and message variety.
+
+## Commits
+
+61fa6fb55be71110f508684e2bac1a1fe48a9b2c release: bump version to 0.4.4 including Buddy chatter and controls
+]]></description>
+            <enclosure url="https://github.com/shahidrogers/sidekix-releases/releases/download/v0.4.4/Sidekix-0.4.4-macos-apple-silicon.zip" length="3732691" type="application/octet-stream" sparkle:edSignature="12iBrmAM9iyikN51G5M3aCA55UAVdCQPLqSMyKPqo07TcjRNw0jAS5YTsxuJsINzEPvXxppHoeEv7qEx2dyoDA=="/>
+        </item>
+        <item>
             <title>0.4.3</title>
             <pubDate>Sun, 13 Sep 2026 23:11:57 +0800</pubDate>
             <link>https://lutsinar.com/#sidekix</link>
@@ -54,32 +79,6 @@ Sidekix 0.4.2 adds opt-in Notes, Calendar, and Next Up instruments for keeping l
 944f4edbfc6142b8830591ab496478e8519903a2 release: bump version to 0.4.2 including Notes, Calendar, and Buddy levels
 ]]></description>
             <enclosure url="https://github.com/shahidrogers/sidekix-releases/releases/download/v0.4.2/Sidekix-0.4.2-macos-apple-silicon.zip" length="3656559" type="application/octet-stream" sparkle:edSignature="j5reRqMsRq5efD7zGnMa0JOqZcIFmlzkUWVMW887c60Y3ybh2rxhcy/NH6p4YW2JAaVro1QSonYaeOj/oOHfBA=="/>
-        </item>
-        <item>
-            <title>0.4.1</title>
-            <pubDate>Sat, 12 Sep 2026 21:46:28 +0800</pubDate>
-            <link>https://lutsinar.com/#sidekix</link>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Summary
-
-Sidekix 0.4.1 expands the instrument library with two opt-in modules: Mac Engine Room for live CPU, memory, and network activity, and Power Dock for Mac and accessory battery levels. It also refines instrument editing, panel behavior, Buddy interactions, and daily-instrument presentation while preserving existing layouts and settings.
-
-## Changes
-
-- **feat**: Add Mac Engine Room with live mechanical system-activity gauges.
-- **feat**: Add Power Dock for Mac and connected accessory battery status.
-- **improve**: Refine instrument editing, drawer controls, onboarding, and detail-panel behavior.
-- **improve**: Polish Buddy, Water, Focus, and Lofi Radio interactions and presentation.
-- **docs**: Document the production packaging, Sparkle signing, and appcast publishing workflow.
-
-## Commits
-
-6908ca0 release: bump version to 0.4.1 including Engine Room and Power Dock
-]]></description>
-            <enclosure url="https://github.com/shahidrogers/sidekix-releases/releases/download/v0.4.1/Sidekix-0.4.1-macos-apple-silicon.zip" length="3302485" type="application/octet-stream" sparkle:edSignature="9RVmNX2XvY9R+2s9+J7NCFCHzPFj9p4GF/52bn4W2alqKv1aUYmV+z/If1w+j3IYSsavDAEhKp6+TJVYCBwKBg=="/>
         </item>
     </channel>
 </rss>
