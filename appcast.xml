@@ -3,6 +3,32 @@
     <channel>
         <title>Sidekix</title>
         <item>
+            <title>0.4.3</title>
+            <pubDate>Sun, 13 Sep 2026 23:11:57 +0800</pubDate>
+            <link>https://lutsinar.com/#sidekix</link>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Summary
+
+Sidekix 0.4.3 makes the daily instruments more dependable and easier to control. Notes now supports editing, task cleanup, completion filtering, and undo; Window has a dedicated hover play/pause control; and Radio more reliably follows station selections and starts only when it can actually play.
+
+## Changes
+
+- **improve**: Add task editing, deletion, completion filtering, clear-completed, and undo to Notes.
+- **fix**: Separate Window playback from opening its detail panel, with an explicit hover control.
+- **fix**: Improve Radio station switching and playback reconciliation after launch.
+- **improve**: Give Buddy species fixed identities and simplify the companion profile.
+- **test**: Expand Notes and Buddy behavior coverage.
+
+## Commits
+
+2953706e5f7c0d6c744ca28fc2c0a68b2ce3dc0b release: bump version to 0.4.3 including Notes and playback fixes
+]]></description>
+            <enclosure url="https://github.com/shahidrogers/sidekix-releases/releases/download/v0.4.3/Sidekix-0.4.3-macos-apple-silicon.zip" length="3679272" type="application/octet-stream" sparkle:edSignature="TSf6RQs8/W9Qg0sh4RQ3cQDN0K31YvFaDDKiJ44Z4M1FV9GlR29H8/CjJxQsdg3Ts5TTPlwdm13+TYn/QmDhBQ=="/>
+        </item>
+        <item>
             <title>0.4.2</title>
             <pubDate>Sun, 13 Sep 2026 17:50:28 +0800</pubDate>
             <link>https://lutsinar.com/#sidekix</link>
@@ -54,18 +80,6 @@ Sidekix 0.4.1 expands the instrument library with two opt-in modules: Mac Engine
 6908ca0 release: bump version to 0.4.1 including Engine Room and Power Dock
 ]]></description>
             <enclosure url="https://github.com/shahidrogers/sidekix-releases/releases/download/v0.4.1/Sidekix-0.4.1-macos-apple-silicon.zip" length="3302485" type="application/octet-stream" sparkle:edSignature="9RVmNX2XvY9R+2s9+J7NCFCHzPFj9p4GF/52bn4W2alqKv1aUYmV+z/If1w+j3IYSsavDAEhKp6+TJVYCBwKBg=="/>
-        </item>
-        <item>
-            <title>0.4.0</title>
-            <pubDate>Sat, 12 Sep 2026 19:22:31 +0800</pubDate>
-            <link>https://lutsinar.com/#sidekix</link>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Sidekix 0.4.0 introduces Buddy, a small focus companion, and refreshes the panel and onboarding experience.
-]]></description>
-            <enclosure url="https://github.com/shahidrogers/sidekix-releases/releases/download/v0.4.0/Sidekix-0.4.0-macos-apple-silicon.zip" length="3239128" type="application/octet-stream" sparkle:edSignature="YYJhUtRejQslyU0GSVkIHHYUxf0Cs3dBPe2A+ucR0CY9dMd2zyqVqYsip4Ki1fGxGJv5JNMUhvJpPq0DrkHBDg=="/>
         </item>
     </channel>
 </rss>
