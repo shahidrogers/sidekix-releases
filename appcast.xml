@@ -3,6 +3,33 @@
     <channel>
         <title>Sidekix</title>
         <item>
+            <title>0.4.2</title>
+            <pubDate>Sun, 13 Sep 2026 17:50:28 +0800</pubDate>
+            <link>https://lutsinar.com/#sidekix</link>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Summary
+
+Sidekix 0.4.2 adds opt-in Notes, Calendar, and Next Up instruments for keeping lightweight context beside your work. Buddy now has persistent affinity, levels, species, unlockable cosmetics, achievements, and reactions to meaningful activity. This update also brings richer sound and motion feedback, refreshed onboarding, and broad interaction polish across the instrument library.
+
+## Changes
+
+- **feat**: Add a private local Notes scratchpad with checklist editing, export, and clear recovery.
+- **feat**: Add Calendar and Next Up instruments with permission-aware event views.
+- **feat**: Add persistent Buddy levels, species, cosmetics, achievements, and activity reactions.
+- **feat**: Add configurable sound, motion, and tactile-style visual feedback across instruments.
+- **improve**: Refine onboarding, instrument editing, radio, Window, Engine Room, Power Dock, Focus, and Water interactions.
+- **test**: Expand coverage for Buddy progression, notes, quota transitions, interaction preferences, and privacy-safe activity foundations.
+
+## Commits
+
+944f4edbfc6142b8830591ab496478e8519903a2 release: bump version to 0.4.2 including Notes, Calendar, and Buddy levels
+]]></description>
+            <enclosure url="https://github.com/shahidrogers/sidekix-releases/releases/download/v0.4.2/Sidekix-0.4.2-macos-apple-silicon.zip" length="3656559" type="application/octet-stream" sparkle:edSignature="j5reRqMsRq5efD7zGnMa0JOqZcIFmlzkUWVMW887c60Y3ybh2rxhcy/NH6p4YW2JAaVro1QSonYaeOj/oOHfBA=="/>
+        </item>
+        <item>
             <title>0.4.1</title>
             <pubDate>Sat, 12 Sep 2026 21:46:28 +0800</pubDate>
             <link>https://lutsinar.com/#sidekix</link>
@@ -39,18 +66,6 @@ Sidekix 0.4.1 expands the instrument library with two opt-in modules: Mac Engine
             <description sparkle:format="markdown"><![CDATA[Sidekix 0.4.0 introduces Buddy, a small focus companion, and refreshes the panel and onboarding experience.
 ]]></description>
             <enclosure url="https://github.com/shahidrogers/sidekix-releases/releases/download/v0.4.0/Sidekix-0.4.0-macos-apple-silicon.zip" length="3239128" type="application/octet-stream" sparkle:edSignature="YYJhUtRejQslyU0GSVkIHHYUxf0Cs3dBPe2A+ucR0CY9dMd2zyqVqYsip4Ki1fGxGJv5JNMUhvJpPq0DrkHBDg=="/>
-        </item>
-        <item>
-            <title>0.3.1</title>
-            <pubDate>Sat, 12 Sep 2026 17:58:38 +0800</pubDate>
-            <link>https://lutsinar.com/#sidekix</link>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[Sidekix 0.3.1 adds secure automatic updates through Sparkle, restores the Window widget after reopening the panel, and automatically plays newly selected scenes and videos with a loading overlay.
-]]></description>
-            <enclosure url="https://github.com/shahidrogers/sidekix-releases/releases/download/v0.3.1/Sidekix-0.3.1-macos-apple-silicon.zip" length="3135551" type="application/octet-stream" sparkle:edSignature="jCvlSZsO1aVWmjEnZPWfbbb+9I+Elf4FtUl8f1fJRJ6f+Xjci8X7NA0xVqEsXiXefLNMUEneVbl1Rw9HXpiUDA=="/>
         </item>
     </channel>
 </rss>
