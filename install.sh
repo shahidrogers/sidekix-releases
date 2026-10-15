@@ -32,7 +32,7 @@ base="https://github.com/$repo/releases/download/v$version"
 work=$(mktemp -d)
 trap 'rm -rf "$work"' EXIT
 
-echo "Downloading Sidekix $version…"
+echo "Downloading Sidekix ${version}..."
 curl -fSL --progress-bar -o "$work/$name" "$base/$name" || fail "Download failed for $name."
 curl -fsSL -o "$work/$name.sha256" "$base/$name.sha256" || fail "Could not download the checksum."
 
@@ -48,7 +48,7 @@ codesign --verify --deep --strict "$app" 2>/dev/null || fail "The app's signatur
 
 mkdir -p "$dest"
 if pgrep -x Sidekix >/dev/null 2>&1; then
-  echo "Quitting the running Sidekix…"
+  echo "Quitting the running Sidekix..."
   osascript -e 'tell application "Sidekix" to quit' >/dev/null 2>&1 || pkill -x Sidekix || true
   sleep 1
 fi
