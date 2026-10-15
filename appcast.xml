@@ -3,6 +3,16 @@
     <channel>
         <title>Sidekix</title>
         <item>
+            <title>0.4.5</title>
+            <pubDate>Thu, 15 Oct 2026 10:28:50 +0800</pubDate>
+            <link>https://lutsinar.com/#sidekix</link>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.4.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/shahidrogers/sidekix-releases/releases/download/v0.4.5/Sidekix-0.4.5-macos-apple-silicon.zip" length="3733514" type="application/octet-stream" sparkle:edSignature="Phr4w6LQ+y7ALcSisYQcX7CowD748iZb4C7VCbGBdy43LaRo2jFGJOBF1aj1+dSTBMe4yjsJqoCdeb6wNa6jAw=="/>
+        </item>
+        <item>
             <title>0.4.4</title>
             <pubDate>Sun, 13 Sep 2026 23:43:08 +0800</pubDate>
             <link>https://lutsinar.com/#sidekix</link>
@@ -52,33 +62,6 @@ Sidekix 0.4.3 makes the daily instruments more dependable and easier to control.
 2953706e5f7c0d6c744ca28fc2c0a68b2ce3dc0b release: bump version to 0.4.3 including Notes and playback fixes
 ]]></description>
             <enclosure url="https://github.com/shahidrogers/sidekix-releases/releases/download/v0.4.3/Sidekix-0.4.3-macos-apple-silicon.zip" length="3679272" type="application/octet-stream" sparkle:edSignature="TSf6RQs8/W9Qg0sh4RQ3cQDN0K31YvFaDDKiJ44Z4M1FV9GlR29H8/CjJxQsdg3Ts5TTPlwdm13+TYn/QmDhBQ=="/>
-        </item>
-        <item>
-            <title>0.4.2</title>
-            <pubDate>Sun, 13 Sep 2026 17:50:28 +0800</pubDate>
-            <link>https://lutsinar.com/#sidekix</link>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Summary
-
-Sidekix 0.4.2 adds opt-in Notes, Calendar, and Next Up instruments for keeping lightweight context beside your work. Buddy now has persistent affinity, levels, species, unlockable cosmetics, achievements, and reactions to meaningful activity. This update also brings richer sound and motion feedback, refreshed onboarding, and broad interaction polish across the instrument library.
-
-## Changes
-
-- **feat**: Add a private local Notes scratchpad with checklist editing, export, and clear recovery.
-- **feat**: Add Calendar and Next Up instruments with permission-aware event views.
-- **feat**: Add persistent Buddy levels, species, cosmetics, achievements, and activity reactions.
-- **feat**: Add configurable sound, motion, and tactile-style visual feedback across instruments.
-- **improve**: Refine onboarding, instrument editing, radio, Window, Engine Room, Power Dock, Focus, and Water interactions.
-- **test**: Expand coverage for Buddy progression, notes, quota transitions, interaction preferences, and privacy-safe activity foundations.
-
-## Commits
-
-944f4edbfc6142b8830591ab496478e8519903a2 release: bump version to 0.4.2 including Notes, Calendar, and Buddy levels
-]]></description>
-            <enclosure url="https://github.com/shahidrogers/sidekix-releases/releases/download/v0.4.2/Sidekix-0.4.2-macos-apple-silicon.zip" length="3656559" type="application/octet-stream" sparkle:edSignature="j5reRqMsRq5efD7zGnMa0JOqZcIFmlzkUWVMW887c60Y3ybh2rxhcy/NH6p4YW2JAaVro1QSonYaeOj/oOHfBA=="/>
         </item>
     </channel>
 </rss>
